@@ -1,6 +1,6 @@
 fn main() {
     println!("Hello, world!");
-    println!("{}",difference(10));
+    println!("{}", difference(10));
 }
 pub fn square_of_sum(n: u32) -> u32 {
     (1..=n).sum::<u32>().pow(2)
