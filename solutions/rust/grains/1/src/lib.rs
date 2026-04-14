@@ -1,0 +1,7 @@
+pub fn square(s: u32) -> u64 {
+    return 2u64.pow(s - 1);
+}
+
+pub fn total() -> u128 {
+    return 2u128.pow(64) - 1;
+}
